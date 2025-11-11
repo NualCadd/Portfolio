@@ -160,42 +160,7 @@ img:hover{
     background-color:white;
 
 }
-/* Loading screen styles */
-#loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: #000; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    display : none;
-}
-#loading-screen.hidden{
-    transition: opacity 0.5s ease;
-    opacity: 0;
-    pointer-events: none;
-}
-#progression-bar1{
-    position:absolute;
-    width:75vw;
-    height:3vh;
-    background-color:#ffffff;
-    top:50%;
-    left:15%;
-    border-radius: 10px;
-}
-#progression-bar2{
-    position:absolute;
-    width:0px;
-    height:3vh;
-    background-color:#22a584ff;
-    animation: load 5s infinite ease-out;
-    border-radius: 10px;
-}
+
 @keyframes load{
     0% {width: 0px;}
     20% {width: 270.5px;}
@@ -257,15 +222,7 @@ img:hover{
     .project{
         padding-left:10vw;
     }
-    /* Loading bars */
-    #progression-bar1 {
-        width: 70vw;
-        left: 15%;
-        height: 2.5vh;
-    }
-    #progression-bar2 {
-        height: 2.5vh;
-    }
+
     .project-container {
         flex-direction: column;
         align-items: center;
@@ -331,15 +288,7 @@ img:hover{
         font-size: 2.5rem;
         margin-top: 10vw;
     }
-    /* Loading bars */
-    #progression-bar1 {
-        width: 80vw;
-        left: 10%;
-        height: 2vh;
-    }
-    #progression-bar2 {
-        height: 2vh;
-    }
+
     .project-container {
         flex-direction: column;
         align-items: center;
@@ -391,15 +340,6 @@ img:hover{
     .project p {
         font-size: 2rem;
         margin-top: 8vw;
-    }
-    /* Loading bars */
-    #progression-bar1 {
-        width: 90vw;
-        left: 5%;
-        height: 1.5vh;
-    }
-    #progression-bar2 {
-        height: 1.5vh;
     }
     .project-container {
         flex-direction: column;
