@@ -133,5 +133,130 @@ img:hover{
     100% {width: 75vw;}
 }
 
+/* Medium screens / tablets */
+@media (max-width: 1024px) {
+    #job {
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+    nav ul li a {
+        font-size: 28px;
+        padding: 12px;
+    }
+    h2 {
+        top: 35%;
+        left: 30%;
+        font-size: 24px;
+    }
+    .contact {
+        top: 48%;
+        left: 28%;
+    }
+    img {
+        width: 8vw;
+    }
+    #progression-bar1 {
+        width: 70vw;
+        left: 15%;
+        height: 2vh;
+    }
+    #progression-bar2 {
+        height: 2vh;
+    }
+}
+
+/* Small screens / landscape phones */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        gap: 8px;
+        padding-left: 0;
+    }
+    li a {
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    #job {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+    h2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .contact {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 15vw;
+        margin: 10px;
+    }
+    #progression-bar1 {
+        width: 80vw;
+        left: 10%;
+        height: 1.5vh;
+    }
+    #progression-bar2 {
+        height: 1.5vh;
+    }
+}
+
+/* Extra small screens / portrait phones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    li a {
+        font-size: 16px;
+        padding: 5px 6px;
+    }
+    #job {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .contact {
+        width: 90%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+    img {
+        width: 25vw;
+        margin: 5px auto;
+        display: block;
+    }
+    #progression-bar1 {
+        width: 90vw;
+        left: 5%;
+        height: 1.5vh;
+    }
+    #progression-bar2 {
+        height: 1.5vh;
+    }
+}
+
+
 
 
